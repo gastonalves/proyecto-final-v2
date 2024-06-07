@@ -1,0 +1,163 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 50px;
+    background-color: #1D1D1D;
+    color: white;
+}
+
+nav {
+    position: relative;
+}
+
+.menu-nav {
+    display: flex;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+}
+
+#toggle {
+    display: none;
+}
+
+label[for="toggle"] {
+    display: none;
+    cursor: pointer;
+}
+
+.material-icons {
+    font-size: 2rem;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    nav {
+        flex: 1;
+    }
+
+    .footer-navbar {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        li {
+            margin: 5px 0;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+
+            &:hover {
+                border: none; float: left;
+                margin: 3px;
+                outline: 3px solid rgb(232, 235, 98);
+            }
+        }
+    }
+
+    .contacto-footer {
+        flex: 1;
+        text-align: right;
+
+        h3 {
+            margin: 0;
+
+            a {
+                color: white;
+                text-decoration: none;
+                transition: color 0.3s;
+
+                &:hover {
+                    color: #f6f6f6;
+                }
+            }
+        }
+    }
+}
+
+.head-content{
+    background-color: #1a1a1a;
+    padding: 50px;
+    text-align: center;
+    .main-tittle h1{
+        color: #f6f6f6;
+        text-align: center;
+        padding-top: 180px;
+        padding-bottom: 100px;
+        margin-bottom: 50px;
+        font-size: 80px;
+    }
+    .p-influencia{
+        color: #d9f17f;
+        text-align: center;
+        font-size: 80px;
+    }
+    .parrafo-principal{
+        margin-top: 30px;
+        margin-bottom: 40px;
+        width: 100%;
+        align-items: center;
+    }
+    p{
+        color: #f6f6f6;
+    }
+    a{
+        text-decoration: none;
+        color: #1a1a1a;
+        font-size: 20px;
+       
+    }
+}
+.button {
+    display: inline-block;
+    border-radius: 15px;
+    background-color: #d9f17f;
+    border: none;
+    color: #1a1a1a;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    &:hover{
+        background-color: #f6f6f6;
+        color: #1a1a1a;
+    }
+    a{
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
+    

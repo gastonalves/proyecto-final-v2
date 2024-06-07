@@ -1,0 +1,116 @@
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+
+        .footer-navbar {
+            justify-content: center;
+        }
+
+        .contacto-footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-nav {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 200px;
+    }
+
+    &.show {
+        display: flex;
+    }
+
+    #toggle:checked + label + .menu-nav {
+        display: flex;
+    }
+
+    label[for="toggle"] {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-contact-wahatsapp,
+    .section-contact-email,
+    .section-contact-ubication {
+        flex: 1 1 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .services-container {
+        .container-card {
+            flex: 1 1 100%;
+            max-width: 100%;
+        }
+    }
+}
+@media (min-width: 600px) {
+    .nav-wrapper nav .menu-nav {
+      display: flex !important;
+    }
+  
+    .nav-wrapper nav .material-icons {
+      display: none;
+    }
+  }
+@media (max-width: 765px) {
+    .section-principal-about .about {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+  
+      .perfil {
+        max-width: 100%;
+      }
+}
+}
+
+@media (max-width: 768px) {
+    .section-contact-wahatsapp,
+    .section-contact-email,
+    .section-contact-ubication {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-nav {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 200px;
+
+        &.show {
+            display: flex;
+        }
+
+        .navbar {
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 10px;
+
+            li {
+                width: 100%;
+            }
+        }
+    }
+
+    label[for="toggle"] {
+        display: block;
+    }
+}
+/** -----------------------------**/

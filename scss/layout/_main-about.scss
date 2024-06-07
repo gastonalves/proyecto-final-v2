@@ -1,0 +1,163 @@
+
+body {
+    margin: 0;
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #1a1a1a;
+    color: #f6f6f6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #1D1D1D;
+    color: white;
+}
+
+nav {
+    position: relative;
+}
+
+.menu-nav {
+    display: flex;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+}
+
+#toggle {
+    display: none;
+}
+
+label[for="toggle"] {
+    display: none;
+    cursor: pointer;
+}
+
+.material-icons {
+    font-size: 2rem;
+}
+  
+  .section-principal-about {
+    padding: 2rem;
+  
+    .about {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+  
+      .perfil {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+  
+        h2 {
+          margin-bottom: 0.5rem;
+        }
+  
+        img {
+          width: 100%;
+          height: auto;
+          border-radius: 10px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          margin-bottom: 1rem;
+        }
+  
+        p {
+          text-align: justify;
+        }
+      }
+    }
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 1rem;
+  
+    nav {
+      ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+  
+        li {
+          a {
+            color: #fff;
+            text-decoration: none;
+  
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  
+    .contacto-footer {
+      text-align: center;
+      margin-top: 1rem;
+  
+      a {
+        color: #fff;
+        text-decoration: none;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  
+
+  
+  /** ---- EN _edia768.scss ----
+  @media (min-width: 600px) {
+    .nav-wrapper nav .menu-nav {
+      display: flex !important;
+    }
+  
+    .nav-wrapper nav .material-icons {
+      display: none;
+    }
+  }
+  
+  
+  @media (max-width: 765px) {
+    .section-principal-about .about {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+  
+      .perfil {
+        max-width: 100%;
+      }
+} **/
+  
+/** En _media425.scss
+@media (max-width: 425px) {
+    .nav-wrapper nav .menu-nav ul {
+      text-align: center;
+  
+      li {
+        margin: 0.5rem 0;
+      }
+    }
+}
+**/
